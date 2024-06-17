@@ -1,0 +1,53 @@
+body {
+    /*background: rgb(25, 111, 61);*/
+    background: linear-gradient(90deg, rgba(25, 111, 61) 0%, rgba(6,212,211,1) 32%, rgba(89,249,248,1) 46%, rgba(89,249,248,1) 53%, rgba(25, 111, 61) 67%, rgba(25, 111, 61) 100%); 
+}
+
+h1, h2, h3, a, p,{
+    font-family: 'Carrois Gothic SC', sans-serif;
+    display: block;
+    text-align: center;
+    line-height:1.2;
+    color: black;
+}
+
+.contenido {
+    max-width: 1200px:
+    margin: 5rem auto 0 auto;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: black;
+}
+
+a {
+    font-size: 3.5rem;
+    color: black;
+}
+
+p {
+    font-size:_3.5rem;
+    color: black;
+}
+
+.grilla {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 80px;
+}
+
+.texto {
+    font: oblique bold 60% cursive;
+    color: black;
+    font-size: 1rem;
+    line-height:2;
+}
+
+.ingredientes {
+    font: oblique bold 60% cursive;
+    color: black;
+    font-size: 1rem;
+    line-height:3;
+}
+
